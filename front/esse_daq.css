@@ -1,0 +1,48 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(71, 29, 101);
+}
+
+.container {
+    background-color: green;
+    display: flex;
+}
+
+.primeira_parte {
+    color: white;
+}
+
+.segunda_parte {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 17px;
+}
+
+.segunda_parte a {
+    font-size: 35px;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    font-size: 23px;
+    border: none;
+    border-radius: 11px;
+    background-color: grey;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+
